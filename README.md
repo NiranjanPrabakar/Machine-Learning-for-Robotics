@@ -111,25 +111,42 @@ Rainfall_Prediction_Project/
 
 ## Authors
 
-- Niranjan P, VIT Chennai  
-- [Optional: List collaborators if needed]
+Vergin Raja Sarobin M
+Associate Professor, SCOPE
+VIT, Chennai
+Chennai, India
+verginraja.m@vit.ac.in
+
+Niranjan P
+SCOPE
+VIT, Chennai
+Chennai, India
+niranjan.p2022@vitstudent.ac.in
+
+Abhinav Balakrishnan
+SCOPE
+VIT, Chennai
+Chennai, India
+abhinav.b2022@vitstudent.ac.in
+
+Mukunth S
+SCOPE
+VIT, Chennai
+Chennai, India
+mukunth.s2022@vitstudent.ac.in
+
 
 ---
 
-## Citation
+## Dataset Citation
 
-```bibtex
-@misc{rainfall2025niranjan,
-  author       = {Niranjan P},
-  title        = {Rainfall Prediction and Agricultural Insight using Machine Learning (1901–2025)},
-  year         = {2025},
-  institution  = {VIT Chennai},
-  note         = {Available on GitHub and Google Colab}
-}
+**Rajanand Elangovan**, [Rainfall in India Dataset (1901–2015)](https://www.kaggle.com/datasets/rajanand/rainfall-in-india), *Kaggle*.
 
+---
 
 ## Requirements
 
+```bash
 pandas
 numpy
 matplotlib
@@ -137,15 +154,26 @@ seaborn
 scikit-learn
 xgboost
 kmodes
-tensorflow / keras (for LSTM)
-
+tensorflow
+keras
+```
 
 ## How to Run
 
-Upload the dataset rainfall in india 1901-2015.csv to your Google Drive.
+1. Upload the dataset `rainfall in india 1901-2015.csv` to your **Google Drive**.
 
-Mount Google Drive in the notebook.
+2. Mount Google Drive in your notebook:
+   ```python
+   from google.colab import drive
+   drive.mount('/content/drive')
+   ```
 
-Run the cells to train models and visualize results.
+3. Read the dataset:
+   ```python
+   import pandas as pd
+   df = pd.read_csv('/content/drive/MyDrive/rainfall in india 1901-2015.csv')
+   ```
 
-Modify prediction window (2016–2025) as needed.
+4. Run the remaining cells to train the models and visualize the results.
+
+5. Modify the prediction window (e.g., `2016–2025`) as needed.
