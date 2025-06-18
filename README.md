@@ -73,3 +73,13 @@ This model has been extended to:
 
 ## 🗂️ Folder Structure
 
+Rainfall_Prediction_Project/
+│
+├── rainfall in india 1901-2015 (1).csv # Dataset
+├── Machine Learning-Based Rainfall Prediction: A Multimodel Approach and Its Agricultural Impact # Core ML Notebook
+├── Model_Evaluation_Metrics.ipynb
+├── TamilNadu_Rainfall_Ensemble_Prediction_and_Trend_Analysis.ipynb # Clustering-based Rainfall Analysis
+├── TamilNadu_Rainfall_LSTM_Time_Series_Forecasting.ipynb
+└── Dataset Preprocessing
+
+
